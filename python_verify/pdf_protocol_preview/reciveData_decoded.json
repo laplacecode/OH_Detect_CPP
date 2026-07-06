@@ -1,0 +1,8 @@
+{
+  "camera_name": "CAM01",
+  "product_qr": "TEST-QR-0001",
+  "tube_voltage": 90.0,
+  "tube_current": 2.5,
+  "tube_life": 100.0,
+  "fixture_id": 1.0
+}

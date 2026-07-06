@@ -1,0 +1,14 @@
+#ifndef CPP_VERIFY_QTEXTCODEC_COMPAT_H
+#define CPP_VERIFY_QTEXTCODEC_COMPAT_H
+
+#include <QString>
+
+// Qt6/MSYS2 当前环境未提供 QTextCodec 头。
+// 参考适配器链路里只需要兼容包含，不依赖实际 QTextCodec 行为。
+class QTextCodec {
+public:
+    QTextCodec() = default;
+    virtual ~QTextCodec() = default;
+};
+
+#endif // CPP_VERIFY_QTEXTCODEC_COMPAT_H
