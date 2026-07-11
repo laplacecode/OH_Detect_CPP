@@ -21,7 +21,30 @@ $requiredFiles = @(
     "input\01_Pit_80.jpg",
     "include\base.h",
     "include\OH_Detect_Station_Module.h",
-    "doc\README_verify.md"
+    "doc\README_verify.md",
+    "libjpeg-8.dll",
+    "libOpenEXR-3_4.dll",
+    "libopenjp2-7.dll",
+    "libpng16-16.dll",
+    "libtiff-6.dll",
+    "libwebp-7.dll",
+    "libwebpdemux-2.dll",
+    "libwebpmux-3.dll",
+    "zlib1.dll",
+    "libImath-3_2.dll",
+    "libIex-3_4.dll",
+    "libIlmThread-3_4.dll",
+    "libOpenEXRCore-3_4.dll",
+    "libdeflate.dll",
+    "libjbig-0.dll",
+    "libLerc.dll",
+    "liblzma-5.dll",
+    "libzstd.dll",
+    "libsharpyuv-0.dll",
+    "libtbb12.dll",
+    "libdouble-conversion.dll",
+    "libb2-1.dll",
+    "libopenblas.dll"
 )
 
 Write-Host "PackageDir=$PackageDir"
